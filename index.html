@@ -2,13 +2,19 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Accueille</title>
-<link rel="stylesheet" href="./Assets/styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceuille</title>
+    <link rel="stylesheet" href="./Assets/styles/style.css">
+    <link rel="shortcut icon" href="./Assets/images/logoCongo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./Assets/images/logoCongo.png">
 </head>
 <body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
 <section>
+
 <header class="animate">
     <div class="logo"><img src="./Assets/images/logo_barazzavile 1.svg" alt=""></div>
     <nav>
@@ -19,7 +25,7 @@
             <div class="emogi"></div>
         </div>
         <div class="emogi2"></div>
-        <button type="button" class="Menu" onclick="">
+        <button type="button" class="Menu">
             <span for="boutone" class="enfant1"></span>
             <span for="boutone" class="enfant2"></span>
             <span for="boutone" class="enfant3"></span>
@@ -29,11 +35,11 @@
 <div class="body">
     <section class="slider">
         <div class="image">
-            <img src="#" alt=""><div class="typing-effect">Bienvenue à Brazzaville</div>
+            <img src="#" alt=""><div class="typing-effect animateText">Bienvenue à Brazzaville</div>
         </div>
     </section>
     <section class="infos_1">
-        <h2>Un voyage au coueur de l'Afrique</h2>
+        <h2 class="animateTitle">Un voyage au coueur de l'Afrique</h2>
         <p>Brazzaville est la capitale de la République du Congo, pays situé en Afrique centrale. La ville se trouve sur le fleuve Congo, en face de Kinshasa, capitale de la République démocratique du Congo. Les rapides du Congo se trouvent à deux pas de la ville. La ville incarne le dynamisme de l’Afrique moderne tout en préservant son riche héritage culturel. La tour Nabemba, de forme cylindrique, surplombe le fleuve en plein centre-ville. Le mémorial en marbre Pierre Savorgnan de Brazza renferme la dépouille du fondateur de la ville. La basilique Sainte-Anne est érigée à proximité.  <br>
         Superficie : 263,9 km²<br>
         Quartiers : BACONGO, MPILA, MAKÉLÉKÉLÉ, POTO-POTO, PLUS <br>
@@ -44,21 +50,21 @@
         Gentilé : Brazzavillois, Brazzavilloises<br>
         Langue : Francais, lingala, kituba <br>
         source : Google</p>
-        <div class="visite animate"><h1>Cite a decouvrir</h1></div>
-        <div class="table_visite">
+        <div class="visite animate"><h1 >Cite a decouvrir</h1></div>
+        <div class="table_visite scrolAnimation">
             <div></div>
             <div>
-                <div class="image1"></div>
-                <div class="image2"></div>
-                <div class="image3"></div>
-                <div class="image4"></div>
+                <div class="image1 "></div>
+                <div class="image2 animateScrol" id="my-element"></div>
+                <div class="image3 animateScrol"></div>
+                <div class="image4 animateScrol"></div>
             </div>
         </div>
     </section>
 
 
     <section class="infos_2">
-        <h2 >Une ville ou l'acien et le nouveau<br>se recontrent</h2>
+        <h2 class="animateTitle">Une ville ou l'acien et le nouveau<br>se recontrent</h2>
         <p>
             Ce voyage vous plonge dans un monde où l’ancien et le nouveau se côtoient harmonieusement. Explorez les ruelles animées du marché Poto-Poto, où l’artisanat africain prend vie sous vos yeux. Laissez-vous emporter par l’atmosphère électrique du quartier Moungali, célèbre pour sa vie nocturne trépidante.
             <br>
@@ -66,27 +72,28 @@
         </p>
     </section>
     <section class="infos_3">
-        <h2>Une divercité culinaire riche <br>et savoureuse</h2>
-        <p class="animate">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quae quod blanditiis commodi a maxime id odit doloremque pariatur. Repellendus excepturi sed architecto maxime, recusandae animi odit blanditiis aperiam iure?
-            At laborum quo nihil maxime accusamus sunt dolorum, doloribus voluptatum obcaecati dolorem architecto voluptatem iure non soluta voluptatibus. Quo facilis velit qui earum asperiores id quas odit eos assumenda rerum!
-            Ullam quis architecto minus, temporibus laudantium enim voluptatum quasi eius est tempora quia tempore ipsa nam pariatur eligendi, reiciendis commodi, voluptate deleniti. Laborum quo ipsum assumenda voluptate consectetur debitis aliquam?
-            Omnis, rem sed! Ipsa recusandae laudantium velit aliquid laborum esse dolores, nam distinctio accusantium deserunt harum, assumenda optio fugit, animi nihil doloribus molestiae. Hic neque minus minima sint in cum.
-            Dolore iusto quo expedita officiis earum provident, maxime unde, exercitationem quae error minus modi qui dolorem quis, labore ad molestiae ab hic! Quam animi quidem eos esse illo aut exercitationem.
-            Sequi perferendis incidunt quas. Officiis, itaque neque veniam voluptatum ratione harum dolore incidunt similique dicta culpa eligendi sequi consequuntur repellat eius cum, possimus architecto exercitationem nulla distinctio laudantium doloremque omnis?
-            Eum iste aperiam sit molestiae vero delectus, reprehenderit soluta voluptatum quisquam molestias inventore perferendis laboriosam. Fuga, nobis illo. Quis fuga molestias dolor tenetur repellat, veritatis cum numquam id doloribus eveniet?
-            Culpa inventore porro est nulla atque neque eveniet iure unde ut architecto? Eius, fuga, ullam temporibus impedit suscipit qui obcaecati voluptas in nemo consequatur minima soluta aliquid corrupti illum numquam.
-        </p><br><br><br>
+        <h2 class="animateTitle">Une divercité culinaire riche <br>et savoureuse</h2>
+        <p >
+            La cuisine brazzavilloise est un délicieux mélange de saveurs traditionnelles congolaises et d'influences modernes. Les plats emblématiques comme le poulet moambe, le saka-saka (feuilles de manioc pilées) et le poisson fumé témoignent de la richesse gastronomique locale.
+    
+            Dans les restaurants et les "nganda" (restaurants traditionnels), vous pourrez déguster des spécialités comme le madesu (haricots), le ndolé, ou encore le makemba (bananes plantains). Les marchés locaux comme le marché Total offrent une expérience authentique avec leurs étals colorés de fruits tropicaux, d'épices et de légumes frais.
+    
+            La ville compte également de nombreux restaurants modernes proposant des cuisines du monde entier, reflétant le caractère cosmopolite de Brazzaville. Les influences françaises, libanaises et asiatiques enrichissent la scène culinaire locale.
+    
+            N'oubliez pas de goûter aux délicieuses boissons locales comme le vin de palme ou les jus de fruits tropicaux fraîchement pressés.
+        </p>
+        <br><br><br>
         <div class="cuisine animate"><img src="./Assets/images/IMG_8489.JPG" alt=""></div>
         <br><br><br>
         <div class="table_cuisine animate">
-            <div class="cuisine1"><img src="./Assets/images/IMG_8490.JPG" alt=""></div>
-            <div class="cuisine2"><img src="./Assets/images/IMG_8492.JPG" alt=""></div>
-            <div class="cuisine3"><img src="./Assets/images/IMG_8424.PNG" alt=""></div>
+            <div class="cuisine1 animate-container"><img src="./Assets/images/IMG_8490.JPG" alt=""></div>
+            <div class="cuisine2 animate-container"><img src="./Assets/images/IMG_8492.JPG" alt=""></div>
+            <div class="cuisine3 animate-container"><img src="./Assets/images/IMG_8424.PNG" alt=""></div>
         </div>
     </section>
     <br><br><br>
     <section class="infos_4">
-        <h2 class="animate">Decouvrer la société des anbiansseues<br>et des poersonnes elegante (SAPE)</h2>
+        <h2 class="animateTitle">Decouvrer la société des anbiansseues<br>et des poersonnes elegante (SAPE)</h2>
         La société des ambianceurs et des personnes élégantes (plus connue sous l'acronyme SAPE) est un mouvement culturel et de société originaire de la république du Congo et plus précisément du groupe ethnique lari.
         <br>
         Ses adeptes, appelés les sapeurs et parfois black dandies, s'habillent chez les grands couturiers ou font concevoir leurs vêtements sur le même modèle, puis paradent dans la rue ; ils pratiquent la « sapologie », art de bien se « saper ».
@@ -109,18 +116,18 @@
 
         <div class="sape4 animate"></div>
     </section>
-    <section class="infos_5"><h2 class="animate">Vivez des événements inoubliables</h2>
-        <p class="animate">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsum, ullam odio quis architecto pariatur. Necessitatibus, totam. Nostrum provident blanditiis repudiandae expedita aliquid maxime aliquam optio, voluptatibus, animi iste explicabo.
-            Exercitationem soluta veritatis vitae excepturi nisi quod. Facilis architecto eius magnam ad sunt odio cum dignissimos quam aperiam sint tempora, harum pariatur accusamus quos non aut, laborum fuga perspiciatis vero.
-            Ipsam iste consectetur quaerat voluptatibus, error voluptate natus nisi debitis veniam soluta quae magni molestiae ducimus rem, blanditiis inventore ex ipsa exercitationem, ut minima dolor. Iure asperiores nemo quasi tempore?
-            Facere nihil ratione incidunt adipisci, sit sed, veniam quaerat totam praesentium perferendis accusantium similique nulla quod modi culpa minima laudantium dolores! Saepe quibusdam enim earum, ullam odio eaque error repellat?
-            Numquam accusamus doloremque iure accusantium omnis ea dignissimos aut minus natus, porro distinctio in veniam earum corporis. Beatae dignissimos, eos, incidunt dolor id ipsa quisquam libero dolore repudiandae dolorum expedita!
-            Quisquam impedit eligendi inventore at nulla aliquid eius, ea aperiam cumque ipsa error? Explicabo molestiae tenetur tempora cupiditate illo! Id quis minima exercitationem ab blanditiis eum, ipsum quisquam pariatur mollitia.
-            Labore, veniam. Dolores reiciendis, exercitationem maiores ipsam quis quas voluptates sequi vero fuga saepe accusamus, provident autem iure asperiores sed molestias veritatis quisquam temporibus dignissimos dicta fugit soluta tempore. Vel!
-            Minima laudantium nihil debitis eius, at ducimus quae voluptate facere reiciendis blanditiis error nulla ipsam incidunt commodi fugit tempore pariatur rerum adipisci facilis consequuntur libero maxime dolores odit voluptas. Omnis!
-            Nulla voluptatum eum laboriosam, obcaecati, et suscipit repudiandae aliquid dolores similique molestias omnis pariatur cum. Mollitia vero labore obcaecati distinctio ea, unde cupiditate alias optio dicta atque molestiae, in soluta!
-            Facere reprehenderit consectetur cum expedita id sed doloremque praesentium ipsum, saepe enim a, et rerum dicta explicabo odio quidem, voluptate tempora architecto repellendus non iusto? Officiis vitae reprehenderit aliquid inventore!
+    <br><br><br><br><br>
+    <section class="infos_5 "><h2 class="animate">Vivez des événements inoubliables</h2>
+        <p class="">
+            Brazzaville vibre toute l'année au rythme de ses festivals et événements culturels. Le FESPAM (Festival Panafricain de Musique) rassemble des artistes de toute l'Afrique pour des performances exceptionnelles.
+    
+            Le Festival Mantsina sur Scène met en lumière le théâtre contemporain africain, tandis que le Salon International du Livre de Brazzaville (SILB) attire des écrivains et intellectuels du monde entier.
+    
+            Les concerts de rumba congolaise, genre musical inscrit au patrimoine culturel immatériel de l'UNESCO, animent régulièrement les nuits brazzavilloises. Les bars-dancing et les espaces culturels comme l'Institut Français du Congo proposent une programmation riche en spectacles et expositions.
+    
+            Les événements sportifs, notamment les matches de football au Stade Alphonse Massamba-Débat, rassemblent les passionnés dans une ambiance électrique. Les compétitions de pétanque, sport très populaire à Brazzaville, attirent aussi de nombreux spectateurs.
+    
+            Pour les amateurs d'art, les galeries et centres culturels organisent régulièrement des expositions mettant en valeur les artistes locaux et internationaux. Le marché Poto-Poto des artistes est un lieu incontournable pour découvrir l'art contemporain congolais.
         </p>
         <br><br>
     </section>
@@ -131,48 +138,48 @@
                 <div class="image"></div>
                 <div class="title">Découvrir les bonobos</div>
                 <div class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur a recusandae error voluptatem?  error libero illo vel expedita
+                    Visitez le sanctuaire de Bonobos, un centre de conservation unique , Une expérience extraordinaire à  quelques pas de Brazzaville.
                 </div>
                 <div class="voir"><button type="button" id="ancre1">Découvrir</button></div>
             </div>
             <div class="evenement2 animate">
                 <div class="image"></div>
                 <div class="title">Pont du 15 Août 1960</div>
-                <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur a recusandae error v
-                    oluptatem?  error libero illo vel expedita
+                <div class="description">
+                    Monument emblématique de la ville,  Symbole de l'indépendance, il offre une vue imprenable sur le fleuve Congo et la ville.
                 </div>
                 <div class="voir"><button type="button">Découvrir</button></div>
             </div>
             <div class="evenement3 animate">
                 <div class="image"></div>
                 <div class="title">Mémorial Savorgnan de Brazza</div>
-                <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur a recusandae error voluptatem?  illo vel expedita</div>
+                <div class="description">
+                    Ce mausolée majestueux abrite la dépouille du fondateur de la ville. Son architecture unique et son musée retracent l'histoire fascinante de Brazzaville.
+                </div>
                 <div class="voir"><button type="button">Découvrir</button></div>
             </div>
             <div class="evenement4 animate">
                 <div class="image"></div>
                 <div class="title">Basilique Sainte-Anne</div>
                 <div class="description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur a recusandae error voluptatem? Exercitationem quibusdam
+                     Cette basilique est considérée comme l'une des plus belles d'Afrique. Son style unique mêle architecture moderne et art religieux africain.
                 </div>
-                <div class="voir">
-                    <button type="button">Découvrir</button>
-                </div>
+                <div class="voir"><button type="button">Découvrir</button></div>
             </div>
         </div>
     </section>
 </div>
 <footer>
-    <div class="wave-container animate">
+    <div class="wave-container ">
         <div class="wave wave1"></div>
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
     </div>
         <div class="footer-content">
-        <div class="footer-section about">
-            <h2>À propos</h2>
-            <p>Logo Vetements est votre destination pour les dernières tendances en matière de mode. Nous offrons une large gamme de vêtements et d'accessoires pour tous les goûts.</p>
-        </div>
+            <div class="footer-section about">
+                <h2>À propos</h2>
+                <p>Découvrez Brazzaville, capitale dynamique du Congo, où tradition et modernité se rencontrent. Notre site vous guide à travers les merveilles culturelles et touristiques de cette ville fascinante.</p>
+            </div>
         <div class="footer-section contact">
             <h2>Contact</h2>
             <p>Email: <a href="mailto:contact@logovetements.com">contact@logovetements.com</a></p>
@@ -186,7 +193,11 @@
         </div>
     </div>
 </footer>
-<script src="script.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script>
+<script src="./Assets/js/script.js"></script>
+<script src="./Assets/js/GsapAnimation.js"></script>
 </section>
 </body>
 </html>

@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attractions</title>
     <link rel="stylesheet" href="./Assets/styles/style-attractions.css">
+    <link rel="shortcut icon" href="./Assets/images/logoCongo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./Assets/images/logoCongo.png">
 </head>
 <body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
     <div class="main">
     <header class="header">
         <div class="logo"><img src="./Assets/images/logo_barazzavile 1.svg" alt=""></div>
@@ -26,79 +31,100 @@
         </nav>
     </header>
     
-        <section class="introduction">
-            <h1>Brazzaville vous ouvre ses portes</h1>
-            <p>Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit.</p>
-            <hr>
-            <hr><br><br>
-            <div class="presentation-image"><img src="./Assets/images/IMG_8503.JPG" alt="">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad tempore, similique ullam omnis natus laborum, neque itaque voluptates accusamus delectus corrupti minus a totam doloremque reprehenderit temporibus distinctio accusantium tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit a quam doloribus ut accusantium minima? Dolores id reprehenderit, doloribus laboriosam incidunt pariatur atque quod. Non provident omnis ea. A, debitis.
-            Corrupti laudantium rerum exercitationem laboriosam itaque culpa. Corporis odio ipsum labore harum nihil! Architecto aspernatur aliquam deleniti quisquam! Tempora eveniet animi asperiores officia et aliquid nesciunt perspiciatis, aliquam doloribus id.</p>
-            </div>
-        </section>
-        <div class="transition-page"></div>
-        <div class="container-body">
-            <div class="visite-content ">
-                <div class="about slide-in"><h3>Basilique Saint-Anne</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas molestiae suscipit numquam delectus quod. Ab placeat eveniet tenetur nam sed cupiditate deleniti. Facere quia praesentium neque nostrum suscipit amet libero.
-                . </p>
-                <button type="button">Decouvrir</button>
-                </div>
-                <div class="image slide-in left"><img src="./Assets/images/IMG_8549.JPG" alt=""></div>
+    <section class="introduction">
+        <h1 class="animateTitle">Brazzaville vous ouvre ses portes</h1>
+        <p class="animateTitle">Découvrez les merveilles<br>de la capitale congolaise</p>
+        <hr>
+        <hr><br><br>
+        <div class="presentation-image"><img src="./Assets/images/IMG_8503.JPG" alt="">
+        <p>Brazzaville, ville aux mille facettes, vous invite à explorer son patrimoine unique. Entre architecture coloniale et modernité, la capitale congolaise offre un voyage culturel fascinant. Ses monuments historiques, ses marchés animés et ses quartiers pittoresques racontent l'histoire d'une ville en constante évolution. Laissez-vous guider à travers ses sites emblématiques, témoins de son riche passé et de son dynamisme actuel.</p>
+        </div>
+    </section>
+    
+    <div class="container-body animate">
+        <div class="visite-content">
+            <div class="image slide-in left"><img src="./Assets/images/IMG_8549.JPG" alt=""></div>
+            <div class="about slide-in">
+                <h3>Basilique Sainte-Anne</h3>
+                <p>Joyau architectural de Brazzaville, la Basilique Sainte-Anne est un chef-d'œuvre qui mêle art sacré et influences africaines. Construite en 1949, elle impressionne par ses arches vertigineuses et ses vitraux colorés. Son design unique en fait l'une des églises les plus remarquables d'Afrique centrale.</p>
+                <button type="button">Découvrir</button>
             </div>
         </div>
-        <br><br><br><br>
-        <div class="container-body"><hr>
-            <div class="visite-content">
-                <div class="about slide-in"><h3>Tour jumelles de MPILA</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas molestiae suscipit numquam delectus quod. Ab placeat eveniet tenetur nam sed cupiditate deleniti. Facere quia praesentium neque nostrum suscipit amet libero.
-                . </p>
-                <button type="button">Decouvrir</button>
-                </div>
-                <div class="image slide-in left"><img src="./Assets/images/e186ecc56f86452dc5f68e9318d0c32a.jpg" alt=""></div>
+    </div>
+    
+    <div class="container-body animate"><hr>
+        <div class="visite-content">
+            <div class="image slide-in left"><img src="./Assets/images/e186ecc56f86452dc5f68e9318d0c32a.jpg" alt=""></div>
+            <div class="about slide-in">
+                <h3>Tours jumelles de MPILA</h3>
+                <p>Symboles de la modernité de Brazzaville, les tours jumelles de MPILA dominent le quartier d'affaires. Ces gratte-ciels de verre et d'acier offrent une vue panoramique exceptionnelle sur le fleuve Congo et la ville. Un exemple parfait du développement urbain contemporain.</p>
+                <button type="button">Découvrir</button>
             </div>
         </div>
-        <br><br><br><br>
-        <div class="container-body"><hr>
-            <div class="visite-content .slide-in">
-                <div class="about slide-in"><h3>Tour jumelles de MPILA</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas molestiae suscipit numquam delectus quod. Ab placeat eveniet tenetur nam sed cupiditate deleniti. Facere quia praesentium neque nostrum suscipit amet libero.
-                . </p>
-                <button type="button">Decouvrir</button>
-                </div>
-                <div class="image slide-in left"><img src="./Assets/images/IMG_8539.JPG" alt=""></div>
+    </div>
+    
+    <div class="container-body animate"><hr>
+        <div class="visite-content">
+            <div class="image slide-in left"><img src="./Assets/images/IMG-20240915-WA0017.jpg" alt=""></div>
+            <div class="about slide-in">
+                <h3>Mémorial Pierre Savorgnan de Brazza</h3>
+                <p>Ce mausolée majestueux honore la mémoire du fondateur de la ville. Son architecture remarquable et son musée retracent l'histoire fascinante de Brazzaville. Les jardins environnants offrent un havre de paix au cœur de la cité.</p>
+                <button type="button">Découvrir</button>
             </div>
         </div>
-        
-        
+    </div>
+
+    <div class="container-body animate"><hr>
+        <div class="visite-content">
+            <div class="image slide-in left"><img src="./Assets/images/poyo-poto.webp" alt=""></div>
+            <div class="about slide-in">
+                <h3>Marché de Poto-Poto</h3>
+                <p>Le marché de Poto-Poto est le cœur battant de Brazzaville. Ce lieu emblématique offre une immersion totale dans la culture congolaise avec ses étals colorés, ses tissus traditionnels et son artisanat local. Les visiteurs peuvent y découvrir la vie quotidienne des Brazzavillois et déguster des spécialités locales.</p>
+                <button type="button">Découvrir</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-body animate"><hr>
+        <div class="visite-content">
+            <div class="image slide-in left"><img src="./Assets/images/la corniche].jpg" alt=""></div>
+            <div class="about slide-in">
+                <h3>La Corniche de Brazzaville</h3>
+                <p>Longeant majestueusement le fleuve Congo, la Corniche offre une promenade spectaculaire avec vue imprenable sur Kinshasa. Ce lieu de détente prisé des habitants propose restaurants, bars et espaces verts. Au coucher du soleil, le spectacle des pêcheurs traditionnels et des rapides du fleuve est particulièrement saisissant.</p>
+                <button type="button">Découvrir</button>
+            </div>
+        </div>
+    </div>
 
     <footer>
-        <div class="wave-container">
+    <div class="wave-container ">
         <div class="wave wave1"></div>
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
-        </div>
+    </div>
         <div class="footer-content">
-        <div class="footer-section about">
-        <h2>À propos</h2>
-        <p>Logo Vetements est votre destination pour les dernières tendances en matière de mode. Nous offrons une large gamme de vêtements et d'accessoires pour tous les goûts.</p>
-        </div>
+            <div class="footer-section about">
+                <h2>À propos</h2>
+                <p>Découvrez Brazzaville, capitale dynamique du Congo, où tradition et modernité se rencontrent. Notre site vous guide à travers les merveilles culturelles et touristiques de cette ville fascinante.</p>
+            </div>
         <div class="footer-section contact">
-        <h2>Contact</h2>
-        <p>Email: contact@logovetements.com</p>
-        <p>Téléphone: +123 456 7890</p>
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:contact@logovetements.com">contact@logovetements.com</a></p>
+            <p>Téléphone: +123 456 7890</p>
         </div>
         <div class="footer-section social">
-        <h2>Suivez-nous</h2>
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
+            <h2>Suivez-nous</h2>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
         </div>
-        </div>
-        </footer>
+    </div>
+</footer>
     </div>
 </body>
-<script src="./script.js">
-    
-</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js"></script>
+<script src="./Assets/js/script.js"></script>
+<script src="./Assets/js/GsapAnimation.js"></script>
 </html>
