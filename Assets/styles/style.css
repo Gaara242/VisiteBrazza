@@ -140,11 +140,11 @@ header .emogi2 {
     display: none;
     position: absolute;
     z-index: 10;
-    height: 50px;
+    height: 40px;
     width: 40px;
     background: none;
-    right: 20px;
-    top: 17px;
+    right: 30px;
+    top: 25px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -152,7 +152,7 @@ header .emogi2 {
 .Menu span {
     position: absolute;
     display: block;
-    height: 4px;
+    height: 2px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -638,7 +638,9 @@ header {
     }
 
     header .navbar .emogi {
-        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .body .table_visite {
         width: 93%;
@@ -676,5 +678,40 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+/* Ajoutez ces règles pour gérer les images responsives */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.body .cuisine img,
+.table_cuisine img,
+.presentation-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .table_cuisine {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .cuisine1, 
+    .cuisine2, 
+    .cuisine3 {
+        width: 100%;
+    }
+
+    .table_cuisine img {
+        max-height: 300px;
+        width: 100%;
+        object-fit: cover;
     }
 }
