@@ -24,6 +24,9 @@ Un site web moderne présentant les merveilles touristiques de Brazzaville, capi
 - GSAP (Animations)
 - ScrollTrigger
 
+##Voir le site
+Lien:https://gaara242.github.io/VisiteBrazza/
+
 ## 📥 Installation
 
 1. Clonez le repository
