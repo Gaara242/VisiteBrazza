@@ -16,6 +16,12 @@ Un site web moderne présentant les merveilles touristiques de Brazzaville, capi
 - **À Visiter**: Découverte des sites touristiques majeurs
 - **Contact**: Informations de contact et formulaire
 
+
+## 📱 Voir le site
+
+-Lien:https://gaara242.github.io/VisiteBrazza/
+
+
 ## 🛠 Technologies Utilisées
 
 - HTML5
@@ -23,10 +29,6 @@ Un site web moderne présentant les merveilles touristiques de Brazzaville, capi
 - JavaScript
 - GSAP (Animations)
 - ScrollTrigger
-
-##Voir le site
-
--Lien:https://gaara242.github.io/VisiteBrazza/
 
 ## 📥 Installation
 
